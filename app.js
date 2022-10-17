@@ -23,13 +23,13 @@ const main = (wideAndDeep) => {
             }
         }
         else{
-            // function will terminate in here, if given standing position is not in correct format. (ex: '8 Y N')
-            console.log('input is not in correct format');
+            // Function will terminate in here, if given standing position is not in correct format. (ex: '8 Y N')
+            console.log('Input is not in correct format');
         }
     }
     else{
-        // function will terminate in here, if given standing position is not in correct format. (ex: '8 Y N B')
-        console.log('input is not in correct format');
+        // Function will terminate in here, if given standing position is not in correct format. (ex: '8 Y N B')
+        console.log('Input is not in correct format');
     }
 }
 

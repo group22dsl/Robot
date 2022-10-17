@@ -13,18 +13,18 @@ function getStandingPosition(standingPosition, wide, deep, sides) {
                 }
             }
             // this function will terminate in here if given standing position is not correct.
-            console.log(`Standing point wide and deep shouldn't be greater than room wide and deep`)
-            return null
+            console.log(`Standing point wide and deep shouldn't be greater than room wide and deep`);
+            return null;
         }
         else{
             // this function will terminate in here if given standing position is not in given position.
-            console.log('input is not in correct format. Please try again');
+            console.log('Input is not in correct format. Please try again');
             return null;
         }
     }
     else{
         // this function will terminate in here if given standing position is not in given position.
-        console.log('input is not in correct format. Please try again');
+        console.log('Input is not in correct format. Please try again');
         return null;
     }
 }

@@ -6,10 +6,10 @@ const commandValidate = (finalCommand) => {
     const charactorArray = [movements.TURN_RIGHT,movements.MOVE_FORWARD,movements.TURN_LEFT];
     for(let i=0; i<finalCommand.length; i++){
         if(!charactorArray.includes(finalCommand[i])){
-            return false
+            return false;
         }
     }
-    return true
+    return true;
 }
 
 const getDeepAndWidePoint = (widePoint, deepPoint, facedTo) => {
@@ -38,7 +38,7 @@ function getReportFromFinalCommand(finalCommand, widePoint, deepPoint, facedTo, 
     let facingSideIndex = sides.indexOf(facedTo);
     if(!validationResult){
         // Error handling: Validate the final command and return null value from the function with console log if given command is not in correct format.
-        console.log('Command is not valid. Please check and try again')
+        console.log('Command is not valid. Please check and try again');
         return null;
     }
     for(let i=0; i<finalCommand.length; i++){
